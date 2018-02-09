@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Alegreya', serif;
+}
+header{
+  text-align: center;
+}
+.line{
+  width: 80%;
+  border: none;
+  color: #374957;
+  background-color: #374957;
+}
+.light {
+  margin-bottom: 10px;
+  height: 2px;
+}
+.med{
+  height: 3.5px;
+  margin: 20px auto;
+}
+.heavy{
+  margin-top: 20px;
+  height: 5px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #374957;
+  color: white;
+}
+h2 {
+  color: #374957;
+  font-weight: 700;
+}
+h3 {
+  color: lightslategrey;
+}
+form{
+  width: 90%;
+  margin: 5px auto;
+}
+fieldset{
+  border:none;
+  margin
+}
+legend{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+ input,
+ select {
+   margin: .5em 1.5em .5em 0;
+   padding: 1em;
+   border-radius: 5px;
+   background-color: #f1f1f1;
+   border:  black 1px solid;
+ }
+ #userZip {
+   width: 50%;
+ }
+ input:focus{
+   background-color: lightblue;
+   border: green 1px solid;
+ }
+ .contact-field input,
+ .contact-field select{
+   width:100%;
+ }
+textarea{
+  width: 90%;
+  margin: 5px auto;
+  resize: none;
+}
+button{
+  margin: 10px auto;
+  padding: .5em;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 1.4em;
+  color: white;
+  border: none;
+  background-color: #008080;
+}
+h4{
+  font-weight: normal;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  form{
+    max-width: 1020px;
+    margin: auto;
+  }
+  p{
+    display: flex;
+    justify-content: space-between;
+  }
+  p label {
+    width: 200px;
+  }
+  .zip label {
+    width: 159.3px;
+  }
+  #userZip{
+    width:33%;
+    margin-right: auto;
+  }
+}
