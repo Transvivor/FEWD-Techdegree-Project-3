@@ -120,6 +120,10 @@
 .wrapper input:checked ~ .tick:after {
   display: block;
 }
+label{
+  display: flex;
+  align-items: center;
+}
 
 body{
   padding: 0;
@@ -176,7 +180,7 @@ legend{
   margin: 10px 0;
 }
  input,
- select {
+ #state {
    margin: .5em 1.5em .5em 0;
    padding: 1em;
    border-radius: 5px;
@@ -195,7 +199,7 @@ legend{
    width:100%;
  }
 textarea{
-  width: 90%;
+  width: 100%;
   margin: 5px auto;
   resize: none;
 }
