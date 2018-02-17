@@ -104,18 +104,38 @@
         <fieldset> <!--Newsletter Selector-->
          <legend>Newsletter</legend>
          <p>Select the newsletters you would like to receive.</p>
-         <input type="checkbox" name="newsletters" value="htmlNews" id="htmlNews" checked>
-         <label for="htmlNews">HTML News</label><br>
 
-         <input type="checkbox" name="newsletters" value="cssNews" id="cssnews">
-         <label for="cssnews">CSS News</label><br>
+         <label class="container" for="htmlNews">
+           HTML News
+           <input type="checkbox" name="newsletters" value="htmlNews" id="htmlNews" checked>
+           <span class="checkmark"></span>
+         </label><br>
 
-        <input type="checkbox" name="newsletters" value="jNews" id="javanews">
-        <label for="javanews">Javascript News</label><br>
-        
+
+         <label class="container"for="cssnews">
+           CSS News
+           <input class="container" type="checkbox" name="newsletters" value="cssNews" id="cssnews">
+          <span class="checkmark"></span>
+         </label><br>
+
+        <label class="container"for="javanews">
+          Javascript News
+          <input class="checks" type="checkbox" name="newsletters" value="jNews" id="javanews">
+          <span class="checkmark"></span>
+        </label><br>
+
         <p>Newsletter format</p>
-        <input type="radio" name="format" value="HTML" id="html" checked>HTML<br>
-        <input type="radio" name="format" value="txt"id="txt">Plain Text<br><br>
+        <label class="wrapper" for="html">HTML
+        <input type="radio" name="format" value="HTML" id="html" checked>
+        <span class="tick"></span>
+        </label>
+
+        <br>
+        <label class="wrapper" for="txt">Plain Text
+        <input class="wrapper" type="radio" name="format" value="txt"id="txt">
+        <span class="tick"></span>
+      </label>
+         <br><br>
 
         <label for="topics">Other topics you'd like to hear about</label>
         <textarea name="other" rows="8" cols="30" id="topics"></textarea>
