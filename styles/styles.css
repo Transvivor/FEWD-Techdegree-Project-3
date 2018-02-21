@@ -181,6 +181,7 @@ legend{
 }
  input,
  #state {
+   text-align: right;
    margin: .5em 1.5em .5em 0;
    padding: 1em;
    border-radius: 5px;
